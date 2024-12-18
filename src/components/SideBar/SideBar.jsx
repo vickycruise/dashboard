@@ -643,7 +643,7 @@ const Sidebar = () => {
             <a
               href="https://www.nobleui.com/html/documentation/docs.html"
               target="_blank"
-              className="nav-link"
+              className="nav-link" rel="noreferrer"
             >
               <div className="d-flex justify-content-between w-100 align-items-center">
                 <div className="d-flex align-items-center">

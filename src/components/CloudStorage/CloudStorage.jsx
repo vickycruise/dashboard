@@ -7,8 +7,8 @@ const CloudStorage = () => {
       height: 260,
       type: "radialBar",
     },
-    series: [67], // Represents 67% storage used
-    colors: ["#00A3E0"], // Replace with actual color from your color scheme
+    series: [67],
+    colors: ["#00A3E0"],
     plotOptions: {
       radialBar: {
         hollow: {
@@ -17,7 +17,7 @@ const CloudStorage = () => {
         },
         track: {
           show: true,
-          background: "#E6E6E6", // Replace with actual color from your theme
+          background: "#E6E6E6",
           strokeWidth: "100%",
           opacity: 1,
           margin: 5,
@@ -27,11 +27,11 @@ const CloudStorage = () => {
           name: {
             offsetY: -11,
             show: true,
-            color: "#6C757D", // Replace with actual color
+            color: "#6C757D",
             fontSize: "13px",
           },
           value: {
-            color: "#6C757D", // Replace with actual color
+            color: "#6C757D",
             fontSize: "30px",
             show: true,
           },
@@ -105,7 +105,6 @@ const CloudStorage = () => {
             </div>
           </div>
 
-          {/* Render the radial chart */}
           <Chart
             options={storageChartOptions}
             series={storageChartOptions.series}
