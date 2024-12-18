@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-import "../../assets/css/demo1/style.css";
-import logomimiLigiht from "../../assets/images/logo-mini-light.png";
+// import "../../assets/css/demo1/style.css";
 import {
   FaBeer,
   FaCalendar,
@@ -14,7 +13,6 @@ import {
   FaFacebookMessenger,
   FaRedRiver,
   FaSign,
-  FaSnapchat,
   FaTable,
   FaUikit,
   FaWpforms,

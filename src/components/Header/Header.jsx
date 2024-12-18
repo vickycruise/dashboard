@@ -10,10 +10,6 @@ import {
   FaBell,
   FaEnvelope,
   FaUser,
-  FaEdit,
-  FaSignOutAlt,
-  FaAmilia,
-  FaVoicemail,
 } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 

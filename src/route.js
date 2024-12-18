@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {  createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import NotFound from "./pages/NotFound/ErrorPage";
 
@@ -9,7 +9,6 @@ const Email = React.lazy(() => import("./pages/Email/EmailPage"));
 const Chat = React.lazy(() => import("./pages/Chat/ChatPage"));
 const Calendar = React.lazy(() => import("./pages/Calender/CalenderPage"));
 
-// Create the router
 const router = createBrowserRouter([
   {
     path: "/",
@@ -47,14 +46,12 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
-      
     ],
   },
   {
-    path: "*", // Catch-all route for 404
+    path: "*",
     element: <NotFound />,
   },
 ]);
-
 
 export default router;
